@@ -14,6 +14,45 @@ export default function Home() {
         textAlign: "center",
       }}
     >
+      <div
+          style={{
+            position: "absolute",
+            top: "20px",
+            right: "20px",
+            display: "flex",
+            gap: "12px",
+          }}
+        >
+          <a href="/login">
+            <button
+              style={{
+                padding: "10px 18px",
+                borderRadius: "10px",
+                border: "none",
+                background: "#2563eb",
+                color: "#fff",
+                cursor: "pointer",
+              }}
+            >
+              Login
+            </button>
+          </a>
+
+          <a href="/signup">
+            <button
+              style={{
+                padding: "10px 18px",
+                borderRadius: "10px",
+                border: "none",
+                background: "#16a34a",
+                color: "#fff",
+                cursor: "pointer",
+              }}
+            >
+              Sign Up
+            </button>
+          </a>
+        </div>
       <h1
         style={{
           fontSize: "4rem",
@@ -80,7 +119,7 @@ export default function Home() {
           justifyContent: "center",
         }}
       >
-        <a href="/analyze">
+        <a href="/login">
           <button
             style={{
               padding: "15px 28px",
